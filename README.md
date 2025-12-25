@@ -4,7 +4,7 @@
 class Developer:
     def __init__(self):
         self.name = "Priya K"
-        self.degree = "B.E. Computer Science"
+        self.degree = "B.E. Computer Science Engineering"
         self.interests = ["Web Development", "Problem Solving", "UI Design"]
         self.tools = ["VS Code", "GitHub", "MySQL"]
         self.current_status = "Final Year Student"
