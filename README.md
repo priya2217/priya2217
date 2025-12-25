@@ -4,15 +4,19 @@
 class Developer:
     def __init__(self):
         self.name = "Priya K"
-        self.role = "Software / Web Developer"
-        self.skills = ["HTML", "CSS", "JavaScript", "React", "SQL", "Java", "C", "Python"]
+        self.degree = "B.E. Computer Science"
+        self.interests = ["Web Development", "Problem Solving", "UI Design"]
+        self.tools = ["VS Code", "GitHub", "MySQL"]
+        self.current_status = "Final Year Student"
         self.location = "Chennai 🇮🇳"
+        self.fun_fact = "Loves debugging with tea ☕"
 
-    def say_hi(self):
-        print("Thanks for visiting my portfolio!")
+
+    def introduce(self):
+        print("Passionate about building real-world applications!")
 
 me = Developer()
-me.say_hi()
+me.greet()
 ````
 
 ---
