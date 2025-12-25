@@ -1,4 +1,6 @@
-#👋 Hello there! I’m Priya K
+# 👋 Hello there! I’m **Priya K**
+
+```python
 class Developer:
     def __init__(self):
         self.name = "Priya K"
@@ -11,6 +13,10 @@ class Developer:
 
 me = Developer()
 me.say_hi()
+````
+
+---
+
 # 💫 About Me:
 👋 Hello there! I’m Priya K<br><br>🎓 Final-year Computer Science & Engineering Student at Loyola-Icam College of Engineering and Technology 💻 Passionate about Web Development, Software Engineering, and Emerging Technologies 🚀 Enjoy building responsive, interactive, and user-friendly applications
 
