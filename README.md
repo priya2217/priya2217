@@ -1,18 +1,22 @@
 # 👋 Hello there! I’m **Priya K**
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Priya K"
-        self.role = "Software / Web Developer"
-        self.skills = ["HTML", "CSS", "JavaScript", "React", "SQL", "Java", "C", "Python"]
-        self.location = "Chennai 🇮🇳"
+```js
+class Developer {
+  constructor() {
+    this.name = "Priya K";
+    this.role = "Software / Web Developer";
+    this.skills = ["HTML", "CSS", "JavaScript", "React", "SQL", "Java", "C", "Python"];
+    this.location = "Chennai 🇮🇳";
+  }
 
-    def say_hi(self):
-        print("Thanks for visiting my portfolio!")
+  sayHi() {
+    console.log(`Thanks for visiting my portfolio!`);
+  }
+}
 
-me = Developer()
-me.say_hi()
+const me = Developer();
+me.sayHi();
+
 ````
 
 ---
