@@ -15,7 +15,7 @@ class Developer:
     def introduce(self):
         print("Passionate about building real-world applications!")
 
-me = Full Stack Developer()
+me = FullStack Developer()
 me.greet()
 ````
 
